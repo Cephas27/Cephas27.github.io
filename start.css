@@ -1,0 +1,40 @@
+body, html {
+width: 100%;
+height: 100%; 
+  background: url(logo.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-size:3rem;
+	font-family: cursive;
+	color: red;
+  background-color: none;
+}
+
+.buffer { height: 10rem;
+
+
+}
+hr { border-color: red;
+border-width: 3px;
+max-width: 65px;}
+
+.btn { font-weight: 700;
+border-radius: 280px;
+text-transform: uppercase;
+ }
+
+.btn:hover {
+border-width: 4px;
+background-color: #041c73;
+border-color: red}
+
+.btn-xl {
+	padding:1rem 2rem;
+   background-color: red;
+   border-color: #041c73;
+   text-decoration-color: #041c73
+}
